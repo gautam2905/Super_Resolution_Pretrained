@@ -12,3 +12,5 @@ This web app implements a pre-trained [Super-Resolution paper](https://arxiv.org
 5. Run the `webapp.py`
 6. Upload the image.
 7. The resulting image will also be saved in the result folder.
+
+
