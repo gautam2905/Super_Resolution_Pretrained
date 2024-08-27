@@ -13,4 +13,17 @@ This web app implements a pre-trained [Super-Resolution paper](https://arxiv.org
 6. Upload the image.
 7. The resulting image will also be saved in the result folder.
 
+## ESRGAN
+We improve the [SRGAN](https://arxiv.org/abs/1609.04802) from three aspects:
+1. adopt a deeper model using a Residual-in-Residual Dense Block (RRDB) without batch normalization layers.
+2. employ [Relativistic average GAN](https://ajolicoeur.wordpress.com/relativisticgan/) instead of the vanilla GAN.
+3. improve the perceptual loss by using the features before activation.
 
+In contrast to SRGAN, which claimed that **deeper models are increasingly difficult to train**, our deeper ESRGAN model shows its superior performance with easy training.
+
+<p align="center">
+  <img height="120" src="figures/architecture.jpg">
+</p>
+<p align="center">
+  <img height="180" src="figures/RRDB.png">
+</p>
