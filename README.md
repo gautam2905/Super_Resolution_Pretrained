@@ -14,7 +14,7 @@ This web app implements a pre-trained [Super-Resolution paper](https://arxiv.org
 7. The resulting image will also be saved in the result folder.
 
 ## ESRGAN
-We improve the [SRGAN](https://arxiv.org/abs/1609.04802) from three aspects:
+The ESRGAN improve the [SRGAN](https://arxiv.org/abs/1609.04802) from three aspects:
 1. adopt a deeper model using a Residual-in-Residual Dense Block (RRDB) without batch normalization layers.
 2. employ [Relativistic average GAN](https://ajolicoeur.wordpress.com/relativisticgan/) instead of the vanilla GAN.
 3. improve the perceptual loss by using the features before activation.
